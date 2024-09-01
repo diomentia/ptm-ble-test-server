@@ -1,0 +1,5 @@
+services:
+  ble:
+    build: .
+    privileged: true
+    network_mode: host
