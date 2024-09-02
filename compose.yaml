@@ -3,3 +3,5 @@ services:
     build: .
     privileged: true
     network_mode: host
+    volumes:
+      - /run/dbus:/run/dbus:ro
